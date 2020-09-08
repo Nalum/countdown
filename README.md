@@ -5,8 +5,9 @@ This project was part of a challenge to create a countdown timer.
 
 ### Phase 1
 A cli tool that takes optional arguments for duration, output file and format.
-```bash
-$ go run main.go -h                                                                              
+
+```
+$ countdown -h
 Use this tool to create a count down timer, it will create a file and
 update it as the timer counts down to 0.
 
