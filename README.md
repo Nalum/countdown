@@ -6,7 +6,7 @@ This project was part of a challenge to create a countdown timer.
 ### Phase 1
 A cli tool that takes optional arguments for duration, output file and format.
 
-```
+```bash
 $ countdown -h
 Use this tool to create a count down timer, it will create a file and
 update it as the timer counts down to 0.
@@ -30,6 +30,9 @@ The following additional features should form phase 2 of the project.
 * There should be the ability to stop timers.
 
 ## Usage
-```
-countdown -h
+```bash
+# The default will set a 5 minute timer and write to the file .countdown in your home directory
+$ countdown
+# This will set a 10 minute timer and write to the file .cd in your home directory
+$ countdown -d 10m -o ~/.cd
 ```
